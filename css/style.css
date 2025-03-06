@@ -1,0 +1,224 @@
+body{
+    font-family: "Nunito", serif;
+}
+.title{
+    max-width: 500px;
+}
+/* start-header */
+header{
+    background-image: url(../images/header-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+header .headpar{
+    max-width: 500px;
+}
+header button:hover{
+    background-color: #fff !important;
+    color: #000 !important;
+}
+header .setting{
+    top: 30%;
+    border-radius: 0 5px 5px 0;
+}
+header .dot{
+    bottom: 90px;
+    width: 40px;
+    height: 70px;
+    border: 2px solid #fff;
+    transform: translateX(-50%);
+}
+header .dot::after{
+    content: "";
+    width: 5px;
+    height: 10px;
+    position: absolute;
+    background-color: white;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+}
+header h1::after{
+    content: '';
+    animation: typing 5s infinite;
+}
+@keyframes typing {
+    0%{
+        content: 'D|';
+    }
+    3%{
+        content: 'De|';
+    }
+    6%{
+        content: 'Des|';
+    }
+    9%{
+        content: 'Desi|';
+    }
+    12%{
+        content: 'Desig|';
+    }
+    15%{
+        content: 'Design|';
+    }
+    18%{
+        content: 'Designe|';
+    }
+    21%{
+        content: 'Designer|';
+    }
+    24%{
+        content: 'Designe|';
+    }
+    27%{
+        content: 'Design|';
+    }
+    30%{
+        content: 'Desig|';
+    }
+    33%{
+        content: 'Desi|';
+    }
+    36%{
+        content: 'Des|';
+    }
+    39%{
+        content: 'De|';
+    }
+    42%{
+        content: '|';
+    }
+    45%{
+        content: 'D|';
+    }
+    48%{
+        content: 'De|';
+    }
+    51%{
+        content: 'Dev|';
+    }
+    54%{
+        content: 'Deve|';
+    }
+    57%{
+        content: 'Devel|';
+    }
+    60%{
+        content: 'Develo|';
+    }
+    63%{
+        content: 'Develop|';
+    }
+    66%{
+        content: 'Develope|';
+    }
+    69%{
+        content: 'Develope|';
+    }
+    72%{
+        content: 'Developer|';
+    }
+    75%{
+        content: 'Develope|';
+    }
+    78%{
+        content: 'Develo|';
+    }
+    82%{
+        content: 'Devel|';
+    }
+    85%{
+        content: 'Deve|';
+    }
+    88%{
+        content: 'Deve|';
+    }
+    92%{
+        content: 'Dev|';
+    }
+    95%{
+        content: 'De|';
+    }
+    97%{
+        content: '|';
+    }
+    100%{
+        content: '|';
+    }
+}
+/* end-header */
+/* start-nav */
+nav .nav-link.active{
+    color: #e65f78 !important;
+    font-weight: 700;
+}
+/* end-nav */
+/* start-about */
+.about h3 span{
+    color: #e65f78 !important;
+}
+.about .icons i:hover{
+    border-color: #e65f78;
+    color: #e65f78;
+    cursor: pointer;
+}
+/* end-about */
+/* start-client */
+.client i{
+    color: #e65f78 !important;
+}
+.carousel-indicators{
+    bottom: -40px;
+}
+.carousel-indicators button{
+    background-color: #e65f78 !important;
+}
+/* end-client */
+/* start-work */
+.work .item img{
+    transition: all 0.5s;
+}
+.work .item:hover img{
+    transform: scale(1.5);
+}
+.work .layer{
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    transition: all 0.5s;
+}
+.work .item:hover .layer{
+    opacity: 1;
+}
+.work content{
+    transition: all 0.5s;
+}
+.work .item:hover .content{
+    top: 50% !important;
+    transform: translateY(-50%);
+}
+.work .nav-link.active{
+    background-color: #e65f78 !important;
+    color: #fff !important;
+    border-radius: 25px !important;
+}
+.work .nav-link{
+    color: #444 !important;
+}
+/* end-work */
+/* start-portfolio */
+.portfolio .inner .content p span{
+    color: #e65f78;
+}
+/* end-portfolio */
+/* start-contact */
+.contact i{
+    color: #e65f78 !important;
+}
+.contact button{
+    background-color: #e65f78;
+}
+.contact button:hover{
+    background-color: #e65f78;
+    color: white;
+}
+/* end-contact */

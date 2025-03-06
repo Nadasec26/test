@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kerri</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Amatic+SC:wght@400;700&family=Arvo&family=Assistant:wght@200..800&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbar-example">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top" id="navbar-example">
+        <div class="container">
+            <a class="navbar-brand fw-bold fs-3" href="#">Kerri</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#header">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#client">Clients</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#work">Works</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+            </div>
+        </div>
+    </nav>
+    <header class="vh-100 position-relative" id="header">
+        <div
+            class="layer d-flex flex-column align-items-center justify-content-center position-absolute top-0 bottom-0 start-0 end-0 bg-dark bg-opacity-75 text-white">
+            <p class="fs-1 fw-bold">Welcome</p>
+            <h1 class="display-2">I am a </h1>
+            <p class="headpar text-white-50 text-center">It is a long established fact that a reader will be of a page
+                when established fact looking at its layout.</p>
+            <button class="btn rounded-pill text-white border-1 border-white px-5 py-3">Download CV</button>
+        </div>
+        <div class="setting position-fixed start-0 bg-dark bg-opacity-75 p-2 text-white z-2">
+            <i class="fa-solid fa-gear fa-spin"></i>
+        </div>
+        <div class="dot position-absolute start-50 rounded-pill"></div>
+    </header>
+    <main>
+        <section class="about py-5" id="about">
+            <div class="container py-4">
+                <div class="row gy-3">
+                    <div class="col-md-6">
+                        <div class="inner">
+                            <img src="./images/about.jpg" class="w-100 border p-1" alt="about">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="inner-content pt-4">
+                            <h2><span class="fw-bold">About</span> Me</h2>
+                            <h3>Hello! <span class="fw-bold">I'M Kerri Deo.</span></h3>
+                            <p class="text-muted">It is a long established fact that a reader will be distracted by the
+                                readable content of a page when looking at its layout.</p>
+                            <p class="text-muted">The point of using Lorem Ipsum is that it has a more-or-less normal
+                                distribution of letters, as opposed to using 'Content here, content here', making it look
+                                like readable English.</p>
+                            <p class="text-muted">There are many variations of passages of Lorem Ipsum available, but the
+                                majority have suffered alteration in some form, by injected humour, or randomised words
+                                which don't look even slightly believable.</p>
+                            <div class="icons d-flex gap-4">
+                                <i class="fa-brands fa-facebook border rounded-circle p-2"></i>
+                                <i class="fa-brands fa-twitter border rounded-circle p-2"></i>
+                                <i class="fa-brands fa-instagram border rounded-circle p-2"></i>
+                                <i class="fa-brands fa-linkedin border rounded-circle p-2"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="client py-5 bg-secondary bg-opacity-25" id="client">
+            <div class="container py-4 text-center">
+                <h2>Our <span class="fw-bold">Client</span></h2>
+                <p class="m-auto text-secondary title">It is a long established fact that a reader will be of a page when established
+                    fact looking at its layout.</p>
+                <div id="carouselExampleIndicators" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="d-flex align-items-center flex-column mt-4">
+                                <i class="fa-solid fa-quote-left fa-2x"></i>
+                                <img src="./images/testi-1.jpg" class="my-4 rounded-circle" alt="test">
+                                <p class="text-secondary fst-italic">" The point of using Lorem Ipsum is that it has a
+                                    more-or-less normal distribution of letters, as opposed to using 'Content here."</p>
+                                <h5 class="text-secondary">- Ebony <span class="fw-bold text-dark">verty,</span></h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="d-flex align-items-center flex-column mt-4">
+                                <i class="fa-solid fa-quote-left fa-2x"></i>
+                                <img src="./images/testi-2.jpg" class="my-4 rounded-circle" alt="test">
+                                <p class="text-secondary fst-italic">" The point of using Lorem Ipsum is that it has a
+                                    more-or-less normal distribution of letters, as opposed to using 'Content here."</p>
+                                <h5 class="text-secondary">- Ebony <span class="fw-bold text-dark">verty,</span></h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="d-flex align-items-center flex-column mt-4">
+                                <i class="fa-solid fa-quote-left fa-2x"></i>
+                                <img src="./images/testi-3.jpg" class="my-4 rounded-circle" alt="test">
+                                <p class="text-secondary fst-italic">" The point of using Lorem Ipsum is that it has a
+                                    more-or-less normal distribution of letters, as opposed to using 'Content here."</p>
+                                <h5 class="text-secondary">- Ebony <span class="fw-bold text-dark">verty,</span></h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="work py-5" id="work">
+            <div class="container py-4 text-center">
+                <h2>Our <span class="fw-bold">Works</span></h2>
+                <p class="m-auto text-secondary title">It is a long established fact that a reader will be of a page when established
+                    fact looking at its layout.</p>
+                    <ul class="nav nav-pills mb-3 d-flex justify-content-center my-4" id="pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
+                                type="button" role="tab" aria-controls="pills-home" aria-selected="true">Home</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
+                                type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact"
+                                type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</button>
+                        </li>
+                    
+                    </ul>
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"
+                            tabindex="0">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6 mb-4">
+                                    <div class="inner position-relative item overflow-hidden">
+                                        <img src="images/1.jpg" class="w-100" alt="">
+                                        <div
+                                            class="layer position-absolute top-0 end-0 bottom-0 start-0 d-flex flex-column justify-content-center align-items-center text-white">
+                                            <div class="content position-absolute top-100">
+                                                <h2>Category</h2>
+                                                <p>Project title</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 mb-4">
+                                    <div class="inner position-relative item overflow-hidden">
+                                        <img src="images/2.jpg" class="w-100" alt="">
+                                        <div
+                                            class="layer position-absolute top-0 end-0 bottom-0 start-0 d-flex flex-column justify-content-center align-items-center text-white">
+                                            <div class="content position-absolute top-100">
+                                                <h2>Category</h2>
+                                                <p>Project title</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 mb-4">
+                                    <div class="inner position-relative item overflow-hidden">
+                                        <img src="images/3.jpg" class="w-100" alt="">
+                                        <div
+                                            class="layer position-absolute top-0 end-0 bottom-0 start-0 d-flex flex-column justify-content-center align-items-center text-white">
+                                            <div class="content position-absolute top-100">
+                                                <h2>Category</h2>
+                                                <p>Project title</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 mb-4">
+                                    <div class="inner position-relative item overflow-hidden">
+                                        <img src="images/4.jpg" class="w-100" alt="">
+                                        <div
+                                            class="layer position-absolute top-0 end-0 bottom-0 start-0 d-flex flex-column justify-content-center align-items-center text-white">
+                                            <div class="content position-absolute top-100">
+                                                <h2>Category</h2>
+                                                <p>Project title</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 mb-4">
+                                    <div class="inner position-relative item overflow-hidden">
+                                        <img src="images/5.jpg" class="w-100" alt="">
+                                        <div
+                                            class="layer position-absolute top-0 end-0 bottom-0 start-0 d-flex flex-column justify-content-center align-items-center text-white">
+                                            <div class="content position-absolute top-100">
+                                                <h2>Category</h2>
+                                                <p>Project title</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 mb-4">
+                                    <div class="inner position-relative item overflow-hidden">
+                                        <img src="images/6.jpg" class="w-100" alt="">
+                                        <div
+                                            class="layer position-absolute top-0 end-0 bottom-0 start-0 d-flex flex-column justify-content-center align-items-center text-white">
+                                            <div class="content position-absolute top-100">
+                                                <h2>Category</h2>
+                                                <p>Project title</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6 mb-4">
+                                    <div class="inner position-relative item overflow-hidden">
+                                        <img src="images/1.jpg" class="w-100" alt="">
+                                        <div
+                                            class="layer position-absolute top-0 end-0 bottom-0 start-0 d-flex flex-column justify-content-center align-items-center text-white">
+                                            <div class="content position-absolute top-100">
+                                                <h2>Category</h2>
+                                                <p>Project title</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                    
+                                <div class="col-lg-4 col-md-6 mb-4">
+                                    <div class="inner position-relative item overflow-hidden">
+                                        <img src="images/3.jpg" class="w-100" alt="">
+                                        <div
+                                            class="layer position-absolute top-0 end-0 bottom-0 start-0 d-flex flex-column justify-content-center align-items-center text-white">
+                                            <div class="content position-absolute top-100">
+                                                <h2>Category</h2>
+                                                <p>Project title</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                    
+                                <div class="col-lg-4 col-md-6 mb-4">
+                                    <div class="inner position-relative item overflow-hidden">
+                                        <img src="images/5.jpg" class="w-100" alt="">
+                                        <div
+                                            class="layer position-absolute top-0 end-0 bottom-0 start-0 d-flex flex-column justify-content-center align-items-center text-white">
+                                            <div class="content position-absolute top-100">
+                                                <h2>Category</h2>
+                                                <p>Project title</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                    
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+                            <div class="row">
+                    
+                    
+                                <div class="col-lg-4 col-md-6 mb-4">
+                                    <div class="inner position-relative item overflow-hidden">
+                                        <img src="images/2.jpg" class="w-100" alt="">
+                                        <div
+                                            class="layer position-absolute top-0 end-0 bottom-0 start-0 d-flex flex-column justify-content-center align-items-center text-white">
+                                            <div class="content position-absolute top-100">
+                                                <h2>Category</h2>
+                                                <p>Project title</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                    
+                                <div class="col-lg-4 col-md-6 mb-4">
+                                    <div class="inner position-relative item overflow-hidden">
+                                        <img src="images/4.jpg" class="w-100" alt="">
+                                        <div
+                                            class="layer position-absolute top-0 end-0 bottom-0 start-0 d-flex flex-column justify-content-center align-items-center text-white">
+                                            <div class="content position-absolute top-100">
+                                                <h2>Category</h2>
+                                                <p>Project title</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                    
+                                <div class="col-lg-4 col-md-6 mb-4">
+                                    <div class="inner position-relative item overflow-hidden">
+                                        <img src="images/6.jpg" class="w-100" alt="">
+                                        <div
+                                            class="layer position-absolute top-0 end-0 bottom-0 start-0 d-flex flex-column justify-content-center align-items-center text-white">
+                                            <div class="content position-absolute top-100">
+                                                <h2>Category</h2>
+                                                <p>Project title</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+            </div>
+        </section>
+        <section class="portfolio py-5 bg-secondary bg-opacity-25" id="portfolio">
+            <div class="container py-4 text-center">
+                <h2>Our <span class="fw-bold">Works</span></h2>
+                <p class="m-auto text-secondary title">It is a long established fact that a reader will be of a page when established
+                    fact looking at its layout.</p>
+                <div class="row pt-4">
+                    <div class="col-md-4">
+                        <div class="inner bg-white p-2 rounded-2 mb-3">
+                            <img src="./images/blog-1.jpg" class="w-100" alt="blog">
+                            <div class="content text-start ps-2 pt-2">
+                                <h5 class="fw-bold">There are many variations</h5>
+                                <p class="text-secondary">11 March 2018 <span class="fw-bold">By Kerri</span></p>
+                                <p class="text-secondary">Sit sagittis vulputate laoreet sodales tortor nulla lobortis bibendum netus primis fames. Lobortis ultricies</p>
+                                <p class="fw-bold"><a href="#" class="text-decoration-none text-secondary">Read More...</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="inner bg-white p-2 rounded-2 mb-3">
+                            <img src="./images/blog-2.jpg" class="w-100" alt="blog">
+                            <div class="content text-start ps-2 pt-2">
+                                <h5 class="fw-bold">There are many variations</h5>
+                                <p class="text-secondary">11 March 2018 <span class="fw-bold">By Kerri</span></p>
+                                <p class="text-secondary">Sit sagittis vulputate laoreet sodales tortor nulla lobortis bibendum netus primis fames. Lobortis ultricies</p>
+                                <p class="fw-bold"><a href="#" class="text-decoration-none text-secondary">Read More...</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="inner bg-white p-2 rounded-2 mb-3">
+                            <img src="./images/blog-3.jpg" class="w-100" alt="blog">
+                            <div class="content text-start ps-2 pt-2">
+                                <h5 class="fw-bold">There are many variations</h5>
+                                <p class="text-secondary">11 March 2018 <span class="fw-bold">By Kerri</span></p>
+                                <p class="text-secondary">Sit sagittis vulputate laoreet sodales tortor nulla lobortis bibendum netus primis fames. Lobortis ultricies</p>
+                                <p class="fw-bold"><a href="#" class="text-decoration-none text-secondary">Read More...</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact py-5" id="contact">
+            <div class="container py-4 text-center">
+                <h2>Our <span class="fw-bold">Contact</span></h2>
+                <p class="m-auto text-secondary title">It is a long established fact that a reader will be of a page when established
+                    fact looking at its layout.</p>
+                    <div class="row my-4">
+                        <div class="col-md-4">
+                            <div class="inner">
+                                <i class="fa-solid fa-mobile-screen fs-1"></i>
+                                <h4 class="fw-bold my-3">Call Us On</h4>
+                                <p class="text-secondary">+985 123 7856</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="inner">
+                                <i class="fa-solid fa-mobile-screen fs-1"></i>
+                                <h4 class="fw-bold my-3">Call Us On</h4>
+                                <p class="text-secondary">+985 123 7856</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="inner">
+                                <i class="fa-solid fa-mobile-screen fs-1"></i>
+                                <h4 class="fw-bold my-3">Call Us On</h4>
+                                <p class="text-secondary">+985 123 7856</p>
+                            </div>
+                        </div>
+                    </div>
+                    <form action="">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" placeholder="Your Name">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="email" class="form-control" placeholder="Your Email">
+                            </div>
+                            <div class="col-md-12">
+                                <input type="text" class="form-control" placeholder="Your Subject">
+                            </div>
+                            <div class="col-md-12">
+                                <textarea name="text" id="mes" class="form-control" placeholder="Your Message"></textarea>
+                            </div>
+                            <button class="btn text-white w-auto ms-auto p-3 me-2">SEND MESSAGE</button>
+                        </div>
+                    </form>
+            </div>
+        </section>
+    </main>
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
